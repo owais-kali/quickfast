@@ -5,7 +5,7 @@ add_executable(TutorialApplication)
 target_include_directories(TutorialApplication
         PRIVATE
         .
-        ${CMAKE_SOURCE_DIR}/quickfast/src)
+        ${CMAKE_SOURCE_DIR}/src)
 
 target_sources(TutorialApplication
         PRIVATE
@@ -27,7 +27,7 @@ add_executable(PerformanceTest)
 target_include_directories(PerformanceTest
         PRIVATE
         .
-        ${CMAKE_SOURCE_DIR}/quickfast/src)
+        ${CMAKE_SOURCE_DIR}/src)
 
 target_sources(PerformanceTest
         PRIVATE
