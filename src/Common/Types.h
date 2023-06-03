@@ -12,6 +12,8 @@
 
 typedef std::streamsize streamsize_t;
 
+#include "/media/owais/LinuxHDD1/Freelancer/BitZee/QuickFast-JS/libs/boost/libs/config/include/boost/cstdint.hpp"
+
 namespace QuickFAST{
   /// @brief Unsigned character. AKA: a byte
   typedef unsigned char uchar;

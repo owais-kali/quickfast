@@ -51,7 +51,23 @@
 #include <iomanip>
 #include <fstream>
 #include <cstdlib>
-#include <cstring>
+
+#include <boost/date_time/gregorian/gregorian_types.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/weak_ptr.hpp>
+#include <boost/shared_array.hpp>
+#include <boost/enable_shared_from_this.hpp>
+#include <boost/scoped_ptr.hpp>
+#include <boost/intrusive_ptr.hpp>
+#include <boost/scoped_array.hpp>
+#include <boost/function.hpp>
+#include <boost/lexical_cast.hpp>
+#include <boost/operators.hpp>
+#include <boost/thread.hpp>
+#include <boost/thread/mutex.hpp>
+#include <boost/cstdint.hpp>
+#include <boost/bind.hpp>
 
 ////////////////////////
 // Doxygen documentation
