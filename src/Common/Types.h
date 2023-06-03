@@ -16,19 +16,19 @@ namespace QuickFAST{
   /// @brief Unsigned character. AKA: a byte
   typedef unsigned char uchar;
   /// @brief Signed 8 bit integer. AKA: char on some, but not all platforms.
-  typedef int8_t int8;
+  typedef boost::int8_t int8;
   /// @brief 16 bit signed integer
-  typedef int16_t int16;
+  typedef boost::int16_t int16;
   /// @brief 16 bit unsigned integer
-  typedef uint16_t uint16;
+  typedef boost::uint16_t uint16;
   /// @brief 32 bit signed integer
-  typedef int32_t int32;
+  typedef boost::int32_t int32;
   /// @brief 32 bit unsigned integer
-  typedef uint32_t uint32;
+  typedef boost::uint32_t uint32;
   /// @brief 64 bit signed integer
-  typedef int64_t int64;
+  typedef boost::int64_t int64;
   /// @brief 64 bit unsigned integer
-  typedef uint64_t uint64;
+  typedef boost::uint64_t uint64;
   /// @brief the mantissa portion of a Decimal
   typedef int64 mantissa_t;
   /// @brief the exponent portion of a Decimal
