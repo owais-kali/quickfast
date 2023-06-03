@@ -13,7 +13,7 @@
 #include <Common/QuickFASTPch.h>
 #include <Common/Version.h>
 #include <Common/Decimal.h>
-#include <Common/StringBuffer.h>
+#include <Common/StringBuffer.h>z
 #include <Application/DecoderConnection.h>
 #include <Codecs/XMLTemplateParser.h>
 #include <Codecs/TemplateRegistry.h>

@@ -11,7 +11,7 @@
 #error Please include <Application/QuickFAST.h> preferably as a precompiled header file.
 #endif //QUICKFAST_HEADERS
 // All inline, do not export.
-//#include <Common/QuickFAST_Export.h>
+#include <Common/QuickFAST_Export.h>
 
 namespace QuickFAST
 {
